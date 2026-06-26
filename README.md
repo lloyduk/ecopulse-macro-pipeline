@@ -31,12 +31,14 @@ Ensure your environment running local runtimes is set up with:
 * Git configuration variables active
 
 ### Installation
-1. Clone this repository locally:
-   ```bash
-   git clone [https://github.com/lloyduk/ecopulse-macro-pipeline.git](https://github.com/lloyduk/ecopulse-macro-pipeline.git)
-   cd ecopulse-macro-pipeline
 
-   pip install fastapi uvicorn requests
-   python fetch_macro_data.py
-   python -m uvicorn main:app --reload
-   [http://127.0.0.1:8000](http://127.0.0.1:8000)
+1. Clone this repository locally:
+```bash
+git clone [https://github.com/lloyduk/ecopulse-macro-pipeline.git](https://github.com/lloyduk/ecopulse-macro-pipeline.git)
+cd ecopulse-macro-pipeline
+
+pip install fastapi uvicorn requests
+python fetch_macro_data.py
+python -m uvicorn main:app --reload
+[http://127.0.0.1:8000](http://127.0.0.1:8000)
+```bash
