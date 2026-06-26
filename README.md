@@ -41,4 +41,3 @@ pip install fastapi uvicorn requests
 python fetch_macro_data.py
 python -m uvicorn main:app --reload
 [http://127.0.0.1:8000](http://127.0.0.1:8000)
-```bash
