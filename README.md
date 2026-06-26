@@ -32,12 +32,17 @@ Ensure your environment running local runtimes is set up with:
 
 ### Installation
 
-1. Clone this repository locally:
-```bash
-git clone [https://github.com/lloyduk/ecopulse-macro-pipeline.git](https://github.com/lloyduk/ecopulse-macro-pipeline.git)
+1. Clone this repository:
+git clone https://github.com/lloyduk/ecopulse-macro-pipeline.git
+
+2. Change directory into the folder:
 cd ecopulse-macro-pipeline
 
+3. Install requirements:
 pip install fastapi uvicorn requests
+
+4. Run the data ingestion:
 python fetch_macro_data.py
+
+5. Start the web server:
 python -m uvicorn main:app --reload
-[http://127.0.0.1:8000](http://127.0.0.1:8000)
